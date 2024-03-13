@@ -1,11 +1,5 @@
 @charset "UTF-8";
 
-/*
-    Paleta de Cores
-        Roxo: 22162b
-        Rosa: ffeaec
-*/
-
 * {
     font-family: 'Times New Roman', Times, serif;
     padding: 0px;
@@ -25,7 +19,7 @@ main {
     width: 100vw;
 }
 
-section#login {
+section#cadastro {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -40,7 +34,7 @@ section#login {
     transition-timing-function: ease;
 }
 
-section#login > div#imagem { 
+section#cadastro > div#imagem { 
     display: block;
     background: #22162b url(../imagens/mapa.jpg) no-repeat;
     height: 200px;
@@ -48,7 +42,7 @@ section#login > div#imagem {
     background-position: center center;
 }
 
-section#login > div#formulario {
+section#cadastro > div#formulario {
     display: block;
     padding: 10px;
 }
