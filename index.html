@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media-query.css">
+    <link rel="stylesheet" href="script/script.js">
+    <link rel="shortcut icon" href="favicon/favicon.ico" type="image/x-icon">
     <title>Projeto</title>
 </head>
 <body>
@@ -27,14 +29,14 @@
                 <form action="cadastro.php" method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">person</span>
-                        <input type="text" name="nome" id="inome" placeholder="Nome" autocomplete="current-password" required minlength="8" maxlength="20">
-                        <label for="isenha">Senha</label>
+                        <input type="text" name="nome" id="inome" placeholder="Nome" autocomplete="name" required>
+                        <label for="inome">Nome</label>
                     </div>
 
                     <div class="campo">
                         <span class="material-symbols-outlined">mail</span>
-                        <input type="email" name="login" id="ilogin" placeholder="Email" autocomplete="email" required maxlength="40">
-                        <label for="ilogin">Login</label>
+                        <input type="email" name="email" id="iemail" placeholder="Email" autocomplete="email" required maxlength="40">
+                        <label for="iemail">Login</label>
                     </div>
                     
                     <div class="campo">
@@ -44,10 +46,6 @@
                     </div>
 
                     <input type="submit" value="Cadastrar">
-
-                    <!-- <a href="esqueci.html" class="botao">
-                        Esqueci a Senha
-                        <span class="material-symbols-outlined">mail</span> -->
                     </a>
                 </form>
             </div>

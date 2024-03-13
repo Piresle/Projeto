@@ -55,7 +55,7 @@ Grandes Telas: acima de 1200px
         background-image: linear-gradient(to top, #ffeaec, #22162b); 
     }
     section#cadastro {  /* Grandes Telas */
-        width: 950px;
+        width: 950px; 
     }
     section#cadastro > div#imagem {
         float: right;
